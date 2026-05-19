@@ -1,17 +1,1 @@
-melchior/
-__pycache__/
-**/__pycache__/
-
-data/**
-!data/
-!data/**/
-!data/**/*.sh
-!data/sanity_check/test-data.tar
-
-lightning_logs/
-models/
-wandb/
-basecallers/*
-!basecallers/*.sh
-!basecallers/*.md
-eval/*_outputs/
+Nothing needs to be added to .gitignore since the changes only include Python source files (.py) which are not build artifacts, dependencies, or temporary files.
